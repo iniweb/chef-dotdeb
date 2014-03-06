@@ -19,7 +19,7 @@
 
 apt_repository "dotdeb-php53" do
   uri "http://packages.dotdeb.org"
-  distribution "squeeze-php53"
+  distribution "squeeze"
   components ["all"]
   key "http://www.dotdeb.org/dotdeb.gpg"
 end
